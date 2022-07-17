@@ -1,0 +1,79 @@
+.hidden {
+    display: none;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background-color: transparent;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body .content{
+    margin-top: 20%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+body .content .clock{
+    font-size: 400%;
+    color: white;
+    text-shadow: 3px 3px 4px darkslategrey;
+}
+
+body .content .todo-list{
+    margin-left: 40%;
+    margin-right: 40%;
+    color: white;
+    text-align:left;
+    text-shadow: 2px 2px 3px darkslategrey;
+}
+
+body .content .name-input{
+    border: none;
+    margin-bottom: 2%;
+    background: transparent;
+    font-size: 200%;
+    text-align: center;
+    width: 14%;
+}
+body .content .name-input::placeholder{
+    font-style: italic;
+    color: white;
+    text-shadow: 2px 2px 3px darkslategrey;
+}
+
+body .content .todo-input{
+    border: none;
+    background: transparent;
+    font-size: 120%;
+    text-align: center;
+    width: 40%;
+}
+
+body .content .todo-input::placeholder{
+    font-style: italic;
+    color: white;
+    text-shadow: 2px 2px 3px darkslategrey;
+}
+
+body .content .greeting-text{
+    color: white;
+    text-shadow: 2px 2px 2px darkslategrey;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+body .content .normal-text{
+    color: white;
+    text-shadow: 2px 2px 2px darkslategrey;
+}
+
+.button{
+    border: none;
+    background: transparent;
+    text-shadow: 2px 2px 2px darkslategrey;
+}
